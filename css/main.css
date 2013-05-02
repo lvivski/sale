@@ -45,7 +45,7 @@ div {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   display: inline-block;
-  width: 49.8%;
+  width: 49%;
   vertical-align: bottom;
   text-align: center;
   position: relative;
@@ -73,7 +73,7 @@ div:first-of-type aside {
 
 div:last-of-type aside {
   right: 0;
-  margin-right: -150px;
+  margin-right: -160px;
 }
 
 del, ins {
