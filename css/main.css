@@ -39,6 +39,7 @@ section {
   background: #fff;
   border-radius: 5px;
   box-shadow: inset 0 1px 3px rgba(0,0,0,.2);
+  position: relative;
 }
 
 div {
@@ -49,7 +50,6 @@ div {
   width: 49%;
   vertical-align: bottom;
   text-align: center;
-  position: relative;
 }
 
 figure {
@@ -62,7 +62,7 @@ aside {
   position: absolute;
   text-align: left;
   width: 140px;
-  top: 0;
+  top: 7em;
   font-size: .75em;
   color: #666;
 }
