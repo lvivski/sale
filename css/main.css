@@ -1,0 +1,111 @@
+html {
+  font: 62.5%/1.5 Helvetica, Arial, sans-serif;
+  background: #f5f3f1;
+}
+
+img {
+  pointer-events: none;
+}
+
+body {
+  font-size: 1.6em;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  color: #321;
+}
+
+h1, h3 {
+  font-family: impact;
+  text-align: center;
+}
+
+h1 {
+  text-shadow: 0 1px 1px #fff;
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+section {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.2);
+}
+
+div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 49.8%;
+  vertical-align: bottom;
+  text-align: center;
+  position: relative;
+}
+
+figure {
+  display: inline-block;
+  margin: 0;
+  padding: 10px;
+}
+
+aside {
+  position: absolute;
+  text-align: left;
+  width: 140px;
+  top: 0;
+  font-size: .75em;
+  color: #666;
+}
+
+div:first-of-type aside {
+  left: 0;
+  margin-left: -150px;
+}
+
+div:last-of-type aside {
+  right: 0;
+  margin-right: -150px;
+}
+
+del, ins {
+  font-weight: bold;
+  position: relative;
+}
+
+del {
+  font-size: 1.6em;
+}
+
+del:after {
+  content: "";
+  position: absolute;
+  left: 0;right:0;
+  top: 50%;
+  border-bottom: .1em solid red;
+}
+
+ins {
+  color: red;
+  text-decoration: none;
+  font-size: 4em;
+}
+
+sup {
+  position: absolute;
+  border-radius: 1em;
+  padding: 0 .5em;
+  font-size: .5em;
+  background: #FFEE57;
+  color: #333;
+  text-shadow: 0 1px 1px #fff;
+  box-shadow: 0 2px 3px rgba(0,0,0,.3);
+}
