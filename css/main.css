@@ -91,11 +91,11 @@ del:after {
   position: absolute;
   left: 0;right:0;
   top: 50%;
-  border-bottom: .1em solid red;
+  border-bottom: .15em solid #E61919;
 }
 
 ins {
-  color: red;
+  color: #E61919;
   text-decoration: none;
   font-size: 4em;
 }
