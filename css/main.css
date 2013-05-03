@@ -78,12 +78,16 @@ div:last-of-type aside {
 }
 
 del, ins {
-  font-weight: bold;
   position: relative;
 }
 
 del {
+  text-decoration: none;
+}
+
+del.total, ins {
   font-size: 1.6em;
+  font-weight: bold;
 }
 
 del:after {
@@ -92,6 +96,7 @@ del:after {
   left: 0;right:0;
   top: 50%;
   border-bottom: .15em solid #E61919;
+  -webkit-transform: skew(-15deg,-15deg);
 }
 
 ins {
